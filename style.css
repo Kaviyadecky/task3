@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Cabin&family=Delicious+Handrawn&family=Fasthand&family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0,0,0,.5);
+    background: black;  
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #fff;
+}
+#navbarSupportedContent button{
+    background: #fff;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+}
+
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(/image/can.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #fff,
+    0px 2px 0px #fff,
+    0px 3px 0px #fff,
+    0px 4px 0px #fff,
+    0px 5px 0px #fff,
+    0px 6px 0px #fff;
+
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: green !important;
+    color: black;
+    
+}
+/*About*/
+
+#about{
+    background: linear-gradient(to right, #18d1d4, #ee4ee9 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+}
+#about p{
+    color: #fff;
+
+}
+/*product*/
+#product{
+    background: linear-gradient(to right,#49c261,#85d2fb 100%);
+  }
+  
+  .sample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1  px;
+  
+  }
+  .card{
+    margin: 0.5rem;
+    border-radius: 15px;
+    transition: 2s;
+    box-shadow:  10px 10px 15px rgba(0,0,0,.4),
+                 inset 10px 10px 15px white ;
+  
+      
+  }
+  
+  
+  .card img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+  .card:hover{
+    transition: 2s;
+    box-shadow: inset 10px 10px 15px rgba(0,0,0,.4),
+                inset -10px -10px 15px white ;
+  }
+  /*contact*/
+  #contact img{
+    height: 100%;
+  
+  }
+  
+  .box{
+    width: 80% !important;
+    margin-top: 10px;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact input{
+    margin: 10px 0px;
+  }
+  
+  #contact textarea{
+    margin: 10px 0px;
+  }
+  
